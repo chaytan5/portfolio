@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import quizupImg from "@/public/quizup.png";
 import instaplayImg from "@/public/instaplay.png";
 import sanityImg from "@/public/sanity.png";
+import artPortfolioImg from "@/public/art-portfolio.png";
 
 export const links = [
 	{
@@ -23,10 +24,10 @@ export const links = [
 		name: "Skills",
 		hash: "#skills",
 	},
-	// {
-	//   name: "Experience",
-	//   hash: "#experience",
-	// },
+	{
+		name: "Experience",
+		hash: "#experience",
+	},
 	{
 		name: "Contact",
 		hash: "#contact",
@@ -35,28 +36,28 @@ export const links = [
 
 export const experiencesData = [
 	{
-		title: "Graduated bootcamp",
-		location: "Miami, FL",
+		title: "Pesto Tech",
+		location: "Remote",
 		description:
-			"I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+			"Bootcamp with Pesto Tech after which I immediately found a job as a software developer.",
 		icon: React.createElement(LuGraduationCap),
-		date: "2019",
+		date: "2022",
 	},
 	{
-		title: "Front-End Developer",
-		location: "Orlando, FL",
+		title: "Software Developer",
+		location: "Remote",
 		description:
-			"I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+			"I worked as a software developer in this company and upskilled to the full stack.",
 		icon: React.createElement(CgWorkAlt),
-		date: "2019 - 2021",
+		date: "2023",
 	},
 	{
 		title: "Full-Stack Developer",
-		location: "Houston, TX",
+		location: "Remote",
 		description:
-			"I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+			"I'm now a full-stack developer working in MagicCraft. My stack includes React, Next.js, TypeScript, Tailwind, Prisma, MongoDB, PostgreSQL. I'm open to full-time opportunities.",
 		icon: React.createElement(FaReact),
-		date: "2021 - present",
+		date: "2023 - present",
 	},
 ] as const;
 
@@ -71,7 +72,7 @@ export const projectsData = [
 	{
 		title: "Instaplay",
 		description:
-			"A video streaming app fetching the video data from Youtube APIs. Built live chat functionality and used a variety of custom hooks to make code maintainable.",
+			"A video streaming app with Built in live chat functionality fetching the video data from Youtube APIs",
 		tags: [
 			"React",
 			"React Router",
@@ -82,9 +83,16 @@ export const projectsData = [
 		imageUrl: instaplayImg,
 	},
 	{
+		title: "Art Portfolio",
+		description:
+			"An immersive art porfolio with multiple projects and stunning visuals.",
+		tags: ["React", "Next.js", "Resend", "Tailwind"],
+		imageUrl: artPortfolioImg,
+	},
+	{
 		title: "Photo gallery app",
 		description:
-			"A web app to show photo gallery which gets data from the Sanity CMS. The user can edit the data and change the frontend in real time.",
+			"A web app to show photo gallery which gets data from the Sanity CMS.",
 		tags: ["React", "Next.js", "Sanity", "Tailwind"],
 		imageUrl: sanityImg,
 	},

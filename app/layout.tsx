@@ -12,7 +12,7 @@ const raleway = Raleway({ subsets: ["latin"] });
 export const metadata = {
 	title: "Chetan Arora Portfolio",
 	description:
-		"Chetan is a full-stack developer and builder who has a passion for creating elegant and fuctional apps.",
+		"Chetan is a full-stack developer and builder who has a passion for creating elegant and functional apps.",
 };
 
 export default function RootLayout({
